@@ -1,0 +1,7 @@
+6
+S=XY
+S=#
+X=aXb
+X=c
+Y=YX
+Y=#

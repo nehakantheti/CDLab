@@ -1,0 +1,54 @@
+3
+S=AB
+A=a
+B=#
+
+8
+E=TG
+G=+TG
+G=#
+T=FU
+U=xFU
+U=#
+F=z
+F=(E)
+
+6
+S=XY
+S=#
+X=aXb
+X=c
+Y=YX
+Y=#
+
+6
+S=ABC
+A=a
+A=#
+B=b
+B=#
+C=c
+
+Outputs : 
+For S=ABC : 
+F(S) =  {a, b, c}               
+F(A) = {a, #}           
+F(B) = {b, #}                  
+F(C) = {c}
+
+For S=AB : 
+F(S) = {a}
+F(A) = {a}
+F(B) = {#}
+
+For S=XY : 
+F(S) = {a, c, #}                 
+F(X) = {X, a, c}                  
+F(Y) =  {a, c, #}  
+
+For E=TG : 
+F(E) = {E, z, (}                  
+F(T) = {T, z, (}                  
+F(G) = {G, +, #}                  
+F(F) = {F, z, (}                  
+F(U) = {U, x, #}       
